@@ -1,0 +1,19 @@
+.show-dropdown {
+  border: 1px solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 150px;
+  height: 200px;
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  padding: 20px;
+  justify-content: space-between;
+  z-index: 99;
+  background-color: white;
+}
+
+.hide-dropdown {
+  display: none;
+}
